@@ -1,0 +1,527 @@
+@media screen and (max-width: 1300px) {
+    div.third {        
+        min-height:1100px;      
+    }
+
+    div.money{
+        background-color:  green;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div.inner-money{
+        margin:0px;
+        font-size: 40px;
+        width: 40%;
+        text-align:center;
+    }
+
+
+
+
+
+    /* .gorizont1{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    div.q{
+        text-align:center;
+        width: 500px;
+        margin: 20px;  
+        color:black;
+        font-size:20px;  
+         
+    } */
+    
+       
+  
+}
+
+/* @media screen and (max-width: 700px){
+
+    div.inner-picturesFood{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+    
+    button.buttonToDo{
+        border:2px solid white;
+        box-shadow: none;
+        color:white;
+        width: 1000px;
+        height: 150px;
+        font-size: 23px;
+        background: transparent;    
+    }
+    font.bigWord{
+        text-align: center; 
+        font-size: 700px;
+    }    
+    
+    
+} */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+
+.food{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 1300px;
+    width: 100%;
+    color:white;
+    background-image: url(images/mainimage.png);
+    
+}
+
+.food p {
+    margin-top: 200px;
+    font-size:43px;    
+}
+.second{
+   background-color: #FFFFFF;
+   color:black;
+}
+.inner-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;    
+    font-size:30px;
+}
+font.bigWord{
+    text-align: center; 
+    font-size: 120px;
+}
+font.text{
+    font-size:19px;
+    Color: #6D6D6D;    
+}
+
+div.inner-text{
+    padding-right: 90px;
+}
+
+font.bigText{
+    font-size:30px ;
+}
+p.underline{
+    border-top: 2px solid #363636 ;    
+}
+
+div.gorizont{   
+
+    width: 100%;  
+    align-items: center;
+    justify-content: center;
+    display: flex;   
+        	
+}
+div.q{
+    text-align:center;
+    width: 30%;
+    margin: 20px;  
+    color:black;
+    font-size:20px;   
+}
+
+div.button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 200px;
+    
+    
+    
+}
+
+.buttonToDo{
+    border:2px solid white;
+    box-shadow: none;
+    color:white;
+    width: 300px;
+    height: 100px;
+    font-size: 23px;
+    background: transparent;
+
+}
+
+
+
+div.third{
+    background-color: #F7F7F7;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div#mobilePhoto{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    
+    /* фото ios  телефона */
+}
+div.inner-mobilePhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -13px;
+    /* height: 100px; */
+}
+div#mobileText{
+    text-align:left;
+    font-size:22px;   
+    color:black;
+    margin-left:70px;
+    width: 50%;    
+}
+
+div.textSomeMen{
+    background-image: url(images/inner-people.png);
+    height: 1100px;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-textSomeMen{
+    background-color: rgb(66, 62, 62, 0.6);
+    height: 500px;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    
+}
+
+font.textPerson{
+    font-size: 20px;
+    color: black;
+}
+
+div.beforePic{    
+    height: 250px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+div.main{
+    margin-top: 210px;
+    width: 100%;
+    height: 100px;    
+    margin-bottom: 0;
+    padding: 0;  
+    display: flex;
+    align-items: center; 
+    
+    
+}
+
+div.animation{
+    width: 40%;
+    /* position: relative;   */
+    background-color: black;
+    transform: scale(0.9) rotate(-30deg) skew(25deg);
+}
+
+.animation img { 
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.animation:hover img:nth-child(4){
+    transform: translate(100px, -100px);    
+    /* передвинуть обьект */
+    opacity: 1;
+}   
+.animation:hover img:nth-child(3){
+    transform: translate(80px, -80px);    
+    opacity: 0.8;
+}   
+.animation:hover img:nth-child(2){
+    transform: translate(60px, -60px);
+    opacity: 0.6;
+}   
+.animation:hover img:nth-child(1){
+    transform: translate(40px, -40px);  
+    opacity: 0.4;   
+}   
+div.inner-beforePic{
+    margin-bottom: 0;
+}
+font.beforePicText{
+    font-size: 31px;
+    border-bottom: 2px solid maroon;    
+}
+
+div.picturesFood{
+    background-color: gray;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+
+
+div.inner-picturesFood{
+    width: 100%;  
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;     
+    
+
+}
+.imageFood1{
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/pic1.png);
+    width: 20%;
+}
+.imageFood2{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic2.png);
+   width: 20%;
+}
+.imageFood3{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic3.png);
+   width: 20%;
+}
+.imageFood4{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic4.png);
+   width: 20%;
+}
+.imageFood5{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic5.png);
+   width: 20%;
+}
+.imageFood6{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic6.png);
+   width: 20%;
+}
+.imageFood7{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic7.png);
+  width: 20%;
+}
+.imageFood8{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic8.png);
+  width: 20%;
+}
+.imageFood9{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic9.png);
+  width: 20%;
+}
+.imageFood10{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic10.png);
+  width: 20%;
+}
+.images{ 
+    /* display: flex; */
+    font-size: 35px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(143, 149, 151, 0.6);    
+    margin-top: 110px;
+    font-family: 'Century Gothic';
+}
+
+.imagePerson{    
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}   
+
+/* div.inner-inner-picturesFood{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+
+div.money{
+    background-color: #FEFEFE;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.inner-money{
+    margin:20px;
+    font-size: 40px;
+    width: 20%;
+    text-align:center;
+}
+
+
+div.footer{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.inner-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.fullReserved{
+    width: 50%;
+    font-size: 20px;
+    text-align:left;
+    padding-left:40px;
+    
+}
+
+div.developers{    
+    width: 50%;
+    font-size: 23px;
+    text-align:right;    
+    padding-right:40px;
+    
+}
+.developers h4{
+    color: gray;
+}
+
+
+
+
+
+/* SUN RISE START */
+
+/* @keyframes move-sun-x {
+    0% {
+      transform: translateX(-450px);
+    }
+    100% {
+      transform: translateX(110vw);
+    }
+  }
+  
+  @keyframes move-sun-y {
+    0% {
+      transform: translateY(60vh);
+    }
+    50% {
+      transform: translateY(0);
+    }
+      
+    
+  }
+  
+  @keyframes sky {
+    0% {
+        background: black;
+      }
+   
+    60%{
+      background: rgb(0, 204, 255);
+    }
+    95% {
+      background: #000000;
+    }
+    100%{
+      background: #ff0062;
+    }
+  }
+  
+  .sun-rise {
+    animation: 8s sky infinite linear;
+  }
+  
+  .sun {
+    position: relative;
+  
+    width: 300px;
+    height: 300px;
+    background: transparent;
+  
+    animation: 8s move-sun-y infinite ease-in-out;
+  }
+  
+  .sun::after {
+    content: '';
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 100%;
+  
+    background: radial-gradient(#ffce2d, #ffff00);
+  
+    box-shadow: 0 0 0px #fdf368;
+  
+    border: 1px solid #fffb00;
+    border-radius: 100%;
+  
+    animation: 8s move-sun-x infinite ease-in-out;
+  } */
+
+
+
+
+
