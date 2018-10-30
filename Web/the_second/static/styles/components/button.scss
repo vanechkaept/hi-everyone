@@ -1,0 +1,41 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  width: 25rem;
+  height: 6rem;
+
+  padding: .5rem 2rem;
+
+  font-size: 2rem;
+
+  border-radius: 8px;
+
+  border: 2px solid $color-sub;
+
+  transition: background .25s, color .25s;
+  &--black {
+    color: white;
+    //background: black;
+
+    border-color: white;
+
+    &:hover{
+      background: rgba(0,0,0,.8);
+    }
+  }
+
+  &--white {
+    color: $color-sub;
+    //background: #000;
+    border-color: $color-sub;
+
+    &:hover{
+      background: rgba(0,0,0,.6);
+      color: white;
+    }
+  }
+}

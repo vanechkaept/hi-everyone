@@ -1,0 +1,32 @@
+// Imported Images
+$img-1: url("../images/Rectangle1.png");
+$img-2: url("../images/Rectangle2.png");
+$img-3: url("../images/Rectangle3.png");
+$img-4: url("../images/Rectangle4.png");
+$img-5: url("../images/Rectangle5.png");
+$img-6: url("../images/Rectangle6.png");
+
+$twitter-img: url("../images/Twitter.png");
+$fb-img: url("../images/Facebook.png");
+$bucket-img: url("../images/Dribbble.png");
+
+$author-img: url("../images/1.png");
+
+// VARIABLES
+@import "variables/variables";
+
+// Utils
+@import "utils/utils";
+
+// Base
+@import "base/base";
+
+// Layouts
+@import "layout/start";
+@import "layout/content";
+@import "layout/footer";
+
+// Components
+@import "components/burger";
+@import "components/button";
+@import "components/input";

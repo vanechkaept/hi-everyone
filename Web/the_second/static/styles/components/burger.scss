@@ -1,0 +1,16 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: $burger-width;
+  height: $burger-height;
+
+  &__line {
+    height: 3px;
+    width: 100%;
+
+    background: $color-sub;
+  }
+}

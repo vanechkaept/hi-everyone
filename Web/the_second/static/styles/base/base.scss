@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  color: $color-main;
+}
+
+body {
+  font-size: 1rem;
+  width: 100%;
+}
