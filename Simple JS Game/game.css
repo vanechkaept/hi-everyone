@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/2016.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+nav{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+div.all{
+    padding:10px;
+    padding-right: 20px;
+    padding-left: 30px;
+    width: 70%;
+    height: 600px;
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 100px;
+    
+}
+
+div.name{
+    font-size: 50px;
+    color: white;
+    font-weight:1000;
+    text-align: center;
+} 
+
+.text{
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+
+.firstnum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:30px;    
+}
+
+
+div.inner-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#button{
+    
+    height: auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+div#button:hover{
+    transform: scale(.9);
+}
+
+button{
+    border:2px solid white;
+    box-shadow: none;
+    color:white;
+    width: 300px;
+    height: 100px;
+    font-size: 23px;
+    background: transparent;
+}
+
+
+footer{
+    display: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}

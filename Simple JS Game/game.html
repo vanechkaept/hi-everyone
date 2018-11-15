@@ -1,0 +1,51 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ЧИСЛОМЕТ</title>  
+        <link href="game.css" rel="stylesheet" type="text/css"/>   
+        <!-- <script type = "text/JavaScript" src="jQuery.js"></script> -->
+        <script type = "text/JavaScript" src="game.js" defer></script>  
+    </head> 
+    <body >
+        <nav class="first">
+            <div class="all">
+                <div class="name">ЧИСЛОМЕТ</div><br>
+                <div class="text">И так, правила игры просты:<br>
+                     вы должны угадать цифру вашего оппонентаю. У вас всего 10 попыток<br>
+                     Удачи!
+                    
+                </div>
+                <br><br>
+                <div class="firstnum">
+                    <div class="inner-firstnum">
+                        <!-- <div class="firstdel">
+                            Введите число, которое вы загадали:
+                           <input id = "first" style="font-size: 23px;" type="number"/><br><br>
+                        </div> -->
+                        <div class="seconddel">
+                           Попытайтесь угадать число:
+                           <input id="second" style="font-size: 23px;" type="number"/>
+                      </div>
+                   </div>
+                </div>
+
+
+                <br><br>
+                <div class="inner-button">
+                    <div id="button"><button id= "go" onclick="out()">Попытка </button></div>
+                </div>
+                <hr>
+                <footer>
+                   <div id="val">Числа, Которые вы ввели </div>
+                   <div id="res"> Подсказки будут тут</div>
+                   <div id="temp-out"> Число загаданное пк</div>
+                </footer>
+            </div>          
+
+        </nav>
+    
+    
+           
+    </body>
+</html>
