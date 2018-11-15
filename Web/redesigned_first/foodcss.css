@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+
+.food{
+    display: flex;
+    justify-content: center;
+    height: 1300px;
+    width: 100%;
+    color:white;
+    background-image: url(images/mainimage.png);
+    
+}
+
+.food p {
+    margin-top: 200px;
+    font-size:43px;    
+}
+.second{
+   background-color: #FFFFFF;
+   color:black;
+   display: flex;
+}
+@media (max-width: 1024px) {
+    .second {
+      height: 1350px;; } 
+   
+}
+
+.inner-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;    
+    font-size:30px;
+}
+@media (max-width: 1024px) {
+    .inner-second .gorizont {
+      width: 100%;
+      height: 700px;
+      display: flex;   
+      flex-direction: column;
+      justify-content: flex-start;  
+      margin: 0;
+      padding: 0;      	    
+    } }
+.image:hover{
+    transform: scale(.9);
+}
+font.bigWord{
+    text-align: center; 
+    font-size: 120px;
+}
+font.text{
+    font-size:19px;
+    Color: #6D6D6D;    
+}
+@media (max-width: 1024px) {
+font.text{
+    font-size: 25px;
+    }
+p.underline{
+    font-size:25px;
+}
+}
+
+div.inner-text{
+    padding-right: 90px;
+}
+
+font.bigText{
+    font-size:30px ;
+}
+p.underline{
+    border-top: 2px solid #363636 ;    
+}
+
+div.gorizont{   
+
+    width: 100%;  
+    align-items: center;
+    justify-content: center;
+    display: flex;   
+    
+}
+
+div.q{
+    text-align:center;
+    width: 30%;
+    margin: 20px;  
+    color:black;
+    font-size:20px;   
+}
+@media (max-width: 1024px) {
+    .inner-second .q {
+      width: 50%;           	    
+    } }
+
+div.button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 200px;  
+}
+
+.buttonToDo{
+    border:2px solid white;
+    box-shadow: none;
+    color:white;
+    width: 300px;
+    height: 100px;
+    font-size: 23px;
+    background: transparent;
+}
+
+.buttonToDo:hover{
+    transform: scale(.9);  
+}
+
+
+
+div.third{
+    background-color: #F7F7F7;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+@media (max-width: 1024px) {
+    div.third {        
+        height:auto;              
+    }
+}
+div#mobilePhoto{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    height: 100%;    
+    /* фото ios  телефона */
+}
+div.inner-mobilePhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -13px;
+    
+}
+div#mobileText{
+    text-align:left;
+    font-size:22px;   
+    color:black;
+    margin-left:70px;
+    width: 50%;    
+}
+
+div.textSomeMen{
+    background-image: url(images/inner-people.png);
+    height: 1100px;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-textSomeMen{
+    background-color: rgb(66, 62, 62, 0.6);
+    height: 500px;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    
+}
+
+font.textPerson{
+    font-size: 20px;
+    color: black;
+}
+
+div.beforePic{    
+    height: 250px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+div.main{
+    margin-top: 210px;
+    width: 100%;
+    height: 100px;    
+    margin-bottom: 0;
+    padding: 0;  
+    display: flex;
+    align-items: center; 
+    
+    
+}
+
+div.animation{
+    width: 40%;
+    /* position: relative;   */
+    background-color: black;
+    transform: scale(0.9) rotate(-30deg) skew(25deg);
+}
+
+.animation img { 
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.animation:hover img:nth-child(4){
+    transform: translate(100px, -100px);    
+    /* передвинуть обьект */
+    opacity: 1;
+}   
+.animation:hover img:nth-child(3){
+    transform: translate(80px, -80px);    
+    opacity: 0.8;
+}   
+.animation:hover img:nth-child(2){
+    transform: translate(60px, -60px);
+    opacity: 0.6;
+}   
+.animation:hover img:nth-child(1){
+    transform: translate(40px, -40px);  
+    opacity: 0.4;   
+}   
+div.inner-beforePic{
+    margin-bottom: 0;
+}
+font.beforePicText{
+    font-size: 31px;
+    border-bottom: 2px solid maroon;    
+}
+
+div.picturesFood{
+    background-color: gray;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+
+div.inner-picturesFood1{
+    height: 50%;
+    width: 100%;  
+    display: flex; 
+}
+div.inner-picturesFood2{
+    height: 50%;
+    width: 100%;  
+    display: flex; 
+}
+
+@media (max-width: 1024px) {
+    div.picturesFood {
+        flex-direction: row;
+        height: auto;
+  }
+  div.inner-picturesFood {
+      flex-direction: column;
+        width: 50%;
+        height: 100%;
+  }
+    div.inner-picturesFood .imageFood {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 300px;
+        width: 100%;
+    }
+    div.inner-picturesFood .imageFood .images{
+        margin: 0;
+        width: 100%;
+    }
+ }
+
+ div.inner-picturesFood .imageFood:hover{
+     transform: scale(1.01);
+ }
+
+.imageFood1{
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/pic1.png);
+    width: 20%;
+}
+
+.imageFood2{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic2.png);
+   width: 20%;
+}
+.imageFood3{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic3.png);
+   width: 20%;
+}
+.imageFood4{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic4.png);
+   width: 20%;
+}
+.imageFood5{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic5.png);
+   width: 20%;
+}
+.imageFood6{
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(images/pic6.png);
+   width: 20%;
+}
+.imageFood7{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic7.png);
+  width: 20%;
+}
+.imageFood8{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic8.png);
+  width: 20%;
+}
+.imageFood9{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic9.png);
+  width: 20%;
+}
+.imageFood10{
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/pic10.png);
+  width: 20%;
+}
+.images{ 
+    /* display: flex; */
+    font-size: 35px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(143, 149, 151, 0.6);    
+    margin-top: 100px;
+    font-family: 'Century Gothic';
+}
+
+.imagePerson{    
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}   
+
+
+
+div.money{
+    background-color: #FEFEFE;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .money .gorizont {
+      width: 100%;
+      height: auto;
+      display: flex;   
+      flex-direction: column;
+      justify-content: flex-start;  
+      margin: 0;
+      padding: 0;      	    
+    } 
+    div.money{
+        width:100%;
+        height: auto;
+    }    
+}
+div.inner-money{
+    margin:20px;
+    font-size: 40px;
+    width: 20%;
+    text-align:center;
+}
+div.inner-money:hover{
+    transform: scale(1.2);
+}
+
+
+div.footer{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+div.inner-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.fullReserved{
+    width: 50%;
+    font-size: 20px;
+    text-align:left;
+    padding-left:40px;
+    
+}
+
+div.developers{    
+    width: 50%;
+    font-size: 23px;
+    text-align:right;    
+    padding-right:40px;
+    
+}
+.developers h4{
+    color: gray;
+}
+
+
+
+
+
+
